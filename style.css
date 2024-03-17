@@ -1,0 +1,59 @@
+body {
+    background-color: gray;
+}
+
+.flex-container{
+    display: flex;
+    justify-content:space-between;
+}
+
+p {
+    color: white;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    display: flex;    
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+
+.list li {
+    margin: 0 15px 0 15px;
+}
+
+.log-in {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-list li {
+    margin: 0 10px 0 10px;
+}
