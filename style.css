@@ -5,6 +5,7 @@ body {
 .flex-container{
     display: flex;
     justify-content:space-between;
+    background-color :darkslategray
 }
 
 p {
@@ -22,6 +23,12 @@ p {
     justify-content: center;
     list-style-type: none;
     align-items: center;
+    margin-right: 1300px;
+}
+button {
+    margin-right: 50px;
+    border-radius: 8%;
+    
 }
 
 .list li {
@@ -71,3 +78,13 @@ justify-content: center;
 th,td {
     background-color: wheat;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
