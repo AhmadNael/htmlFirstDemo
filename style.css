@@ -57,3 +57,13 @@ p {
 .footer-list li {
     margin: 0 10px 0 10px;
 }
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up{
+display: flex;
+justify-content: center;
+}
